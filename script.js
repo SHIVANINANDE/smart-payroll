@@ -32,25 +32,6 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
 
-    // Theme Switcher Logic
-    const themeToggle = document.getElementById('theme-toggle');
-    const currentTheme = localStorage.getItem('theme') || 'dark';
-
-    if (currentTheme === 'light') {
-        document.documentElement.setAttribute('data-theme', 'light');
-    }
-
-    themeToggle.addEventListener('click', () => {
-        const theme = document.documentElement.getAttribute('data-theme');
-        if (theme === 'light') {
-            document.documentElement.removeAttribute('data-theme');
-            localStorage.setItem('theme', 'dark');
-        } else {
-            document.documentElement.setAttribute('data-theme', 'light');
-            localStorage.setItem('theme', 'light');
-        }
-    });
-
     // FAQ Accordion Logic
     const accordionItems = document.querySelectorAll('.accordion-item');
     
