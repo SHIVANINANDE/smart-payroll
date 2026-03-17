@@ -42,17 +42,70 @@
     <main>
         <!-- Hero Section -->
         <section id="home" class="hero section-padding">
-            <div class="container hero-content text-center" style="justify-content: center;">
+            <div class="container hero-content">
                 <div class="hero-text reveal">
                     <div class="badge">Powered by CSII INDIA Pvt. Ltd.</div>
                     <h1 class="title">PAYROLL <span class="gradient-text">SIMPLIFIED</span></h1>
                     <h2 class="subtitle">Run compliant payroll in India in just one day</h2>
-                    <p class="desc" style="margin-left: auto; margin-right: auto;">
+                    <p class="desc">
                         Smart Payroll helps founders, HR teams, and consultants move from spreadsheets to accurate, compliant payroll — without long implementations or IT support.
                     </p>
-                    <div class="hero-cta" style="display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 0.8rem;">
+                    <div class="hero-cta">
                         <button class="btn btn-primary btn-glow">Start Your Free Trial</button>
-                        <span class="cta-note" style="margin-left: 0;">No setup fee. No long-term lock-in.</span>
+                        <span class="cta-note">No setup fee. No long-term lock-in.</span>
+                    </div>
+                </div>
+                <div class="hero-callback reveal reveal-right">
+                    <div class="callback-card">
+                        <p class="callback-copy">Complete the form below and our expert team will contact you within 24 hours.</p>
+                        <form class="callback-form">
+                            <div class="callback-grid">
+                                <label class="field">
+                                    <span>Full Name <em>*</em></span>
+                                    <input type="text" name="fullName" placeholder="Enter full name">
+                                </label>
+                                <label class="field">
+                                    <span>Phone Number <em>*</em></span>
+                                    <input type="tel" name="phone" placeholder="Enter phone number">
+                                </label>
+                                <label class="field">
+                                    <span>Email Address <em>*</em></span>
+                                    <input type="email" name="email" placeholder="Enter email address">
+                                </label>
+                                <label class="field">
+                                    <span>Organization / Department <em>*</em></span>
+                                    <input type="text" name="organization" placeholder="Enter organization or department">
+                                </label>
+                                <label class="field">
+                                    <span>City <em>*</em></span>
+                                    <input type="text" name="city" placeholder="Enter city">
+                                </label>
+                                <label class="field">
+                                    <span>Interested Solution <em>*</em></span>
+                                    <select name="solution">
+                                        <option value="" selected disabled>Select Products</option>
+                                        <option value="smart-payroll">Smart Payroll</option>
+                                        <option value="hrms">HRMS Suite</option>
+                                        <option value="consulting">Consulting Support</option>
+                                    </select>
+                                </label>
+                                <label class="field field-icon">
+                                    <span>Preferred Date</span>
+                                    <input type="date" name="preferredDate">
+                                    <i class="fa-regular fa-calendar"></i>
+                                </label>
+                                <label class="field field-icon">
+                                    <span>Preferred Time</span>
+                                    <input type="time" name="preferredTime">
+                                    <i class="fa-regular fa-clock"></i>
+                                </label>
+                            </div>
+                            <label class="field field-full">
+                                <span>Project Details / Requirements <em>*</em></span>
+                                <textarea name="requirements" rows="4" placeholder="Tell us about your payroll needs"></textarea>
+                            </label>
+                            <button type="submit" class="btn callback-submit">Request Call Back</button>
+                        </form>
                     </div>
                 </div>
             </div>
